@@ -1,35 +1,4 @@
-.TrainStation{
-    background-color: black;
-    font-family: Helvetica;
-    text-align: center;
-    color: white;
-
-    height: 70px;
-    max-width: 450px;
-    line-height: 70px;
-    align-items: center;
-}
-
-.StationName{
-    float: left;
-    font-size: 50px;
-}
-
-.StationInfo{
-    padding-top: 3px;
-    padding-bottom: 3px;
-    float: left;
-    display: grid;
-    grid-template-columns: 32px 32px 32px 32px;
-    grid-template-rows: 32px 32px;
-}
-
-.StationMark{
-    text-align: center;
-    font-size: 23px;
-    line-height: 30px;
-    color: white;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
+.Sign{
+    height:70px;
+    width: 450px;
 }

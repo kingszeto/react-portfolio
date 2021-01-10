@@ -3,28 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function setMarkerPos(signID){
-
-}
 ReactDOM.render(
   <React.StrictMode>
-    <Container>
-      <Row>
-        <Col xs={1}></Col>
-        <Col xs={10}><App/></Col>
-        <Col xs={1}></Col>
-      </Row>
-    </Container>
+  <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-
+const script = document.createElement("script")
+script.src = "./beepo.js"
+script.async = true
+document.body.appendChild(script)
   
 
 // ReactDOM.render(<h1>Hello There</h1>, document.getElementById('root'))
